@@ -1,6 +1,6 @@
 # Peak Squad Mx
 
-https://foeira.github.io/peaksquadmx/#/
+https://foeira.github.io/peaksquadmx
 
 ## Description
 
