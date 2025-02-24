@@ -1,0 +1,312 @@
+{
+    "app":{
+      "title": "ES TITULO ",
+      "Msg_Servicio":"Muchas gracias, te enviaremos un email con toda la información"
+      },
+  
+     "navbar":{
+      "Home" : "Inicio",
+      "hikes" : "Senderismo",
+      "RC": "Escalada en Roca",
+      "MC" : "Montañismo",
+      "about" : "Quienes somos",
+      "contact" : "Contacto"
+     },
+     "homeCover" :{
+      "primer_title_home":"Citlaltepetl",
+      "primer_p_home" :"Punto mas alto de México.",
+      "segundo_title_home":"segundo_title_home",
+      "segundo_p_home":"segundo_p_home",
+      "tercer_title_home":"Barrancas del Cobre",
+      "tercer_p_home":"Cañon mas grande de México.",
+      "cuarto_title_home" : "cuarto_title_home",
+      "cuarto_p_home" : "cuarto_p_home",
+      "quinto_title_home" : "quinto_title_home",
+      "quinto_p_home" : "quinto_p_home",
+      "sexto_title_home" : "sexto_title_home",
+      "sexto_p_home" : "sexto_p_home",
+      "septimo_title_home" : "septimo_title_home",
+      "septimo_p_home" : "septimo_p_home",
+      "octavo_title_home" : "octavo_title_home",
+      "octavo_p_home" : "octavo_p_home",
+      "noveno_title_home" : "noveno_title_home",
+      "noveno_p_home" : "noveno_p_home",
+      "decimo_title_home" : "decimo_title_home",
+      "decimo_p_home" : "decimo_p_home",
+      "onceavo_title_home" : "onceavo_title_home",
+      "onceavo_p_home" : "onceavo_p_home",
+      "doceavo_title_home" : "doceavo_title_home",
+      "doceavo_p_home" : "doceavo_p_home",
+      "trece_title_home" : "trece_title_home",
+      "trece_p_home" : "trece_p_home",
+      "catorce_title_home" : "catorce_title_home",
+      "catorce_p_home" : "catorce_p_home",
+      "quince_title_home" : "quince_title_home",
+      "quince_p_home" : "quince_p_home"
+  
+    },
+    "homeCards" :{
+  
+      "Hikes":"Senderismo",
+      "Rock_Climbing" : "Escalada en Roca",
+      "Mountaneering": "Montañismo",
+      "texto_Hikes": "Ven a conocer lindos lugares antes de que lo matemos todo.",
+      "texto_rockclimb": "Boulders, peñas de hasta 30 metros y multilargos",
+      "texto_mont": "Visita nuestros volcanes mayores de 4000 m.s.n.m.",
+  
+      "go" : "Ver mas"
+  
+    },
+    "hikesPage":{
+    },
+    "EscCards":{
+      "titleCard1":"LAS VENTANAS",
+      "subtitleCard1":"LAS VENTANAS",
+      "textCard1":"",
+      "descriptionCard1":"El Valle de México luce majestuoso e imponente desde sus cumbres, pues la Cruz del Marqués y el Pico del Águila son los puntos más altos que podemos  el Ajusco o la Floresta de Agua en náhuatl, alberga estas dos cumbres que son los más altas de la ciudad. Su camino a la cima está resguardado por un bosque, formaciones rocosas, panoramas o lugares internos dignos para tomar una gran fotografía, pensada para aquellos que no tienen mucho tiempo de salir a montaña muy alejadas o quienes quieren adentrarse al mundo del montañismo.",
+      "requireCard1":{
+        "gral" : "Requerimento geral",
+        "fisico" : "requerimientos fisicos",
+        "previos" : "No se necesita experiencia previa.",
+        "equipo": "Todo el equipo que necesita",
+        "medicos": "Todos los requerimientos que médicos que pueda tener"
+        },
+      "altitudeCard1":"80 m",
+      "costCard1":"Salidas cada semana",
+      "lengthCard1":"9.a - 12.d",
+  
+  
+  
+      "titleCard2":"JILOTEPEC",
+      "subtitleCard2":"JILOTEPEC",
+      "textCard2":"En Náhuatl señor desnudo, representó en el pasado un centro de adoración para los habitantes del valle que lo rodea, se encuentran dos lagunas que son conocidas como “la laguna del sol” y “la laguna de la luna”, que junto con el propio nevado, eran observadas como entidades vivas; se pensaba que dentro de estas lagunas moran las deidades del agua, la fertilidad y la cosecha,  la cuarta montaña más alta de México.",
+      "descriptionCard2":"En Náhuatl señor desnudo, representó en el pasado un centro de adoración para los habitantes del valle que lo rodea, se encuentran dos lagunas que son conocidas como “la laguna del sol” y “la laguna de la luna”, que junto con el propio nevado, eran observadas como entidades vivas; se pensaba que dentro de estas lagunas moran las deidades del agua, la fertilidad y la cosecha,  la cuarta montaña más alta de México. ",
+      "requireCard2":{
+        "gral" : "Requerimento geral",
+        "fisico" : "requerimientos fisicos",
+        "previos" : "No se necesita experiencia previa.",
+        "equipo": "Todo el equipo que necesita",
+        "medicos": "Todos los requerimientos que médicos que pueda tener"
+        },
+      "altitudeCard2":"4,680 m",
+      "costCard2":"Salidas cada semana",
+      "lengthCard2":"Distancia Total ≈ 12 km",
+  
+      "titleCard3":"ACULCO",
+      "subtitleCard3":"ACULCO",
+      "textCard3":"Matlalcueye, diosa de la lluvia en náhuatl, y después de la conquista llamada Malinche, cuenta la leyenda que, en las faldas de este volcán se encuentra sepultada aquella mujer que ayudó a los españoles a interpretar y traducir a los pueblos prehispánicos, con terrenos arenosos, pendientes que demandan una condición física aceptable y un gran bosque el cual hay que atravesar, resulta en una aventura que revela las condiciones de este bello deporte que nos acerca con la naturaleza.",
+      "descriptionCard3":"Antes conocida como Matlalcueye, diosa de la lluvia en náhuatl, y después de la conquista llamada Malinche, pues cuenta la leyenda que, en las faldas de este volcán de 4420 metros de altura, se encuentra sepultada aquella mujer que ayudó a los españoles a interpretar y conocer a los pueblos prehispánicos que se encontraban con rumbo a Tenochtitlan, antes de que fuera asediada. Este volcán todavía activo y ubicado entre los estados de Puebla y Tlaxcala, ofrece una experiencia única para aquellos que se inician en el mundo del montañismo; pues con terrenos arenosos, pendientes que demandan una condición física aceptable y un gran bosque el cual hay que atravesar, resulta en una aventura que revela las condiciones de este bello deporte que nos acerca con la naturaleza. Con espacios para acampar, amplias zonas de estacionamiento, restaurantes con comida asequible y muy bien servida, así como un centro vacacional con canchas deportivas, regaderas y renta de cabañas, no cabe duda que La Malinche ofrece todas las comodidades y lugares para recrearse con la naturaleza y acercarse al mundo del montañismo.",
+      "requireCard3":{
+        "gral" : "Requerimento geral",
+        "fisico" : "requerimientos fisicos",
+        "previos" : "No se necesita experiencia previa.",
+        "equipo": "Todo el equipo que necesita",
+        "medicos": "Todos los requerimientos que médicos que pueda tener"
+        },
+      "altitudeCard3":"4,420 m",
+      "costCard3":"Salidas cada semana",
+      "lengthCard3":"Distancia Total ≈ 14 km",
+  
+      "titleCard4":"RANCHO QUEMADO",
+      "subtitleCard4":"RANCHO QUEMADO",
+      "textCard4":"textCard4",
+      "descriptionCard4":"descriptionCard4",
+      "requireCard4":{
+        "gral" : "Requerimento geral",
+        "fisico" : "requerimientos fisicos",
+        "previos" : "No se necesita experiencia previa.",
+        "equipo": "Todo el equipo que necesita",
+        "medicos": "Todos los requerimientos que médicos que pueda tener"
+        },
+      "altitudeCard4":"4,580 m",
+      "costCard4":"Salidas cada quincena",
+      "lengthCard4":"Distancia Total ≈ 10 km",
+  
+      "titleCard5":"PEÑA DE BERNAL",
+      "subtitleCard5":"PEÑA DE BERNAL",
+      "textCard5":"textCard5",
+      "descriptionCard5":"descriptionCard5",
+      "requireCard5":{
+        "gral" : "Requerimento geral",
+        "fisico" : "requerimientos fisicos",
+        "previos" : "requerimientos previos",
+        "equipo": "Todo el equipo que necesita",
+        "medicos": "Todos los requerimientos que médicos que pueda tener"
+        },
+      "altitudeCard5":"5,230 m",
+      "costCard5":"Salidas cada quincena",
+      "lengthCard5":"Distancia Total ≈ 15 km",
+  
+      "titleCard6":"DINAMOS",
+      "subtitleCard6":"DINAMOS",
+      "textCard6":"textCard6",
+      "descriptionCard6":"descriptionCard6",
+      "requireCard6":{
+        "gral" : "Requerimento geral",
+        "fisico" : "requerimientos fisicos",
+        "previos" : "requerimientos previos",
+        "equipo": "Todo el equipo que necesita",
+        "medicos": "Todos los requerimientos que médicos que pueda tener"
+        },
+      "altitudeCard6":"5,636 m",
+      "costCard6":"Salidas cada quincena",
+      "lengthCard6":"Distancia Total ≈ 14 km",
+  
+      "titleCard7":"BASACEACHI",
+      "subtitleCard7":"BASACEACHI",
+      "textCard7":"textCard7",
+      "descriptionCard7":"descriptionCard7",
+      "requireCard7":{
+        "gral" : "Requerimento geral",
+        "fisico" : "requerimientos fisicos",
+        "previos" : "requerimientos previos",
+        "equipo": "Todo el equipo que necesita",
+        "medicos": "Todos los requerimientos que médicos que pueda tener"
+        },
+      "altitudeCard7":"5,393 m",
+      "costCard7":"No hay Salidas",
+      "lengthCard7":"Distancia Total ≈ 10 km"
+    },
+    "montCards":{
+      "titleCard1":"AXOCHCO",
+      "subtitleCard1":"Volcán Ajusco",
+      "textCard1":"El Ajusco o la Floresta de Agua en náhuatl, alberga la Cruz del Marqués y el Pico del Águila, las dos cumbres más altas de la ciudad. Su camino a la cima está resguardado por un bosque, formaciones rocosas, panoramas o lugares internos dignos de una gran fotografía, pensada para aquellos que no tienen mucho tiempo de salir a montaña muy alejadas o quienes quieren adentrarse al mundo del montañismo.",
+      "descriptionCard1":"El Valle de México luce majestuoso e imponente desde sus cumbres, pues la Cruz del Marqués y el Pico del Águila son los puntos más altos que podemos  el Ajusco o la Floresta de Agua en náhuatl, alberga estas dos cumbres que son los más altas de la ciudad. Su camino a la cima está resguardado por un bosque, formaciones rocosas, panoramas o lugares internos dignos para tomar una gran fotografía, pensada para aquellos que no tienen mucho tiempo de salir a montaña muy alejadas o quienes quieren adentrarse al mundo del montañismo.",
+      "requireCard1":{
+        "gral" : "Requerimento geral",
+        "fisico" : "requerimientos fisicos",
+        "previos" : "No se necesita experiencia previa.",
+        "equipo": "Todo el equipo que necesita",
+        "medicos": "Todos los requerimientos que médicos que pueda tener"
+        },
+      "altitudeCard1":"3,930 m",
+      "costCard1":"Salidas cada semana",
+      "lengthCard1":"Distancia Total ≈ 9 km",
+  
+  
+  
+      "titleCard2":"XINANTECATL",
+      "subtitleCard2":"Nevado de Toluca",
+      "textCard2":"En Náhuatl señor desnudo, representó en el pasado un centro de adoración para los habitantes del valle que lo rodea, se encuentran dos lagunas que son conocidas como “la laguna del sol” y “la laguna de la luna”, que junto con el propio nevado, eran observadas como entidades vivas; se pensaba que dentro de estas lagunas moran las deidades del agua, la fertilidad y la cosecha,  la cuarta montaña más alta de México.",
+      "descriptionCard2":"En Náhuatl señor desnudo, representó en el pasado un centro de adoración para los habitantes del valle que lo rodea, se encuentran dos lagunas que son conocidas como “la laguna del sol” y “la laguna de la luna”, que junto con el propio nevado, eran observadas como entidades vivas; se pensaba que dentro de estas lagunas moran las deidades del agua, la fertilidad y la cosecha,  la cuarta montaña más alta de México. ",
+      "requireCard2":{
+        "gral" : "Requerimento geral",
+        "fisico" : "requerimientos fisicos",
+        "previos" : "No se necesita experiencia previa.",
+        "equipo": "Todo el equipo que necesita",
+        "medicos": "Todos los requerimientos que médicos que pueda tener"
+        },
+      "altitudeCard2":"4,680 m",
+      "costCard2":"Salidas cada semana",
+      "lengthCard2":"Distancia Total ≈ 12 km",
+  
+      "titleCard3":"MATLALCUEYE",
+      "subtitleCard3":"Volcán Malinche",
+      "textCard3":"Matlalcueye, diosa de la lluvia en náhuatl, y después de la conquista llamada Malinche, cuenta la leyenda que, en las faldas de este volcán se encuentra sepultada aquella mujer que ayudó a los españoles a interpretar y traducir a los pueblos prehispánicos, con terrenos arenosos, pendientes que demandan una condición física aceptable y un gran bosque el cual hay que atravesar, resulta en una aventura que revela las condiciones de este bello deporte que nos acerca con la naturaleza.",
+      "descriptionCard3":"Antes conocida como Matlalcueye, diosa de la lluvia en náhuatl, y después de la conquista llamada Malinche, pues cuenta la leyenda que, en las faldas de este volcán de 4420 metros de altura, se encuentra sepultada aquella mujer que ayudó a los españoles a interpretar y conocer a los pueblos prehispánicos que se encontraban con rumbo a Tenochtitlan, antes de que fuera asediada. Este volcán todavía activo y ubicado entre los estados de Puebla y Tlaxcala, ofrece una experiencia única para aquellos que se inician en el mundo del montañismo; pues con terrenos arenosos, pendientes que demandan una condición física aceptable y un gran bosque el cual hay que atravesar, resulta en una aventura que revela las condiciones de este bello deporte que nos acerca con la naturaleza. Con espacios para acampar, amplias zonas de estacionamiento, restaurantes con comida asequible y muy bien servida, así como un centro vacacional con canchas deportivas, regaderas y renta de cabañas, no cabe duda que La Malinche ofrece todas las comodidades y lugares para recrearse con la naturaleza y acercarse al mundo del montañismo.",
+      "requireCard3":{
+        "gral" : "Requerimento geral",
+        "fisico" : "requerimientos fisicos",
+        "previos" : "No se necesita experiencia previa.",
+        "equipo": "Todo el equipo que necesita",
+        "medicos": "Todos los requerimientos que médicos que pueda tener"
+        },
+      "altitudeCard3":"4,420 m",
+      "costCard3":"Salidas cada semana",
+      "lengthCard3":"Distancia Total ≈ 14 km",
+  
+      "titleCard4":"TLILTÉPETL",
+      "subtitleCard4":"Sierra Negra",
+      "textCard4":"textCard4",
+      "descriptionCard4":"descriptionCard4",
+      "requireCard4":{
+        "gral" : "Requerimento geral",
+        "fisico" : "requerimientos fisicos",
+        "previos" : "No se necesita experiencia previa.",
+        "equipo": "Todo el equipo que necesita",
+        "medicos": "Todos los requerimientos que médicos que pueda tener"
+        },
+      "altitudeCard4":"4,580 m",
+      "costCard4":"Salidas cada quincena",
+      "lengthCard4":"Distancia Total ≈ 10 km",
+  
+      "titleCard5":"IZTACCIHUATL",
+      "subtitleCard5":"Iztaccihuatl",
+      "textCard5":"textCard5",
+      "descriptionCard5":"descriptionCard5",
+      "requireCard5":{
+        "gral" : "Requerimento geral",
+        "fisico" : "requerimientos fisicos",
+        "previos" : "requerimientos previos",
+        "equipo": "Todo el equipo que necesita",
+        "medicos": "Todos los requerimientos que médicos que pueda tener"
+        },
+      "altitudeCard5":"5,230 m",
+      "costCard5":"Salidas cada quincena",
+      "lengthCard5":"Distancia Total ≈ 15 km",
+  
+      "titleCard6":"CITLALTÉPETL",
+      "subtitleCard6":"Pico de Orizaba",
+      "textCard6":"textCard6",
+      "descriptionCard6":"descriptionCard6",
+      "requireCard6":{
+        "gral" : "Requerimento geral",
+        "fisico" : "requerimientos fisicos",
+        "previos" : "requerimientos previos",
+        "equipo": "Todo el equipo que necesita",
+        "medicos": "Todos los requerimientos que médicos que pueda tener"
+        },
+      "altitudeCard6":"5,636 m",
+      "costCard6":"Salidas cada quincena",
+      "lengthCard6":"Distancia Total ≈ 14 km",
+  
+      "titleCard7":"POPOCATÉPETL",
+      "subtitleCard7":"subtitleCard7",
+      "textCard7":"textCard7",
+      "descriptionCard7":"descriptionCard7",
+      "requireCard7":{
+        "gral" : "Requerimento geral",
+        "fisico" : "requerimientos fisicos",
+        "previos" : "requerimientos previos",
+        "equipo": "Todo el equipo que necesita",
+        "medicos": "Todos los requerimientos que médicos que pueda tener"
+        },
+      "altitudeCard7":"5,393 m",
+      "costCard7":"No hay Salidas",
+      "lengthCard7":"Distancia Total ≈ 10 km"
+  },
+    "aboutPage":{
+  
+    },
+    "contactPage":{
+  
+    },
+  
+    "contact": {
+      "nombre": "Name",
+      "email": "Email"
+    },
+    "message": {
+      "comment": "Comment"
+    },
+    "placeholders": {
+      "name": "Enter your name",
+      "email": "Enter your email",
+      "comment": "Enter your message"
+    },
+    "buttons": {
+      "submit": "Submit",
+      "submitting": "Submitting..."
+    },
+    "validation": {
+      "nameRequired": "Name is required.",
+      "nameInvalid": "Name can only contain letters and spaces.",
+      "emailRequired": "Email is required.",
+      "emailInvalid": "Please enter a valid email address."
+    },
+    "toast": {
+      "successMessage": "Thank you for your message!",
+      "errorMessage": "Something went wrong. Please try again."
+    }
+  }
+  

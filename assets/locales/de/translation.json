@@ -1,0 +1,310 @@
+{
+  "app": {
+    "title": "DIES IST TITEL",
+    "Msg_Servicio": "Vielen Dank, wir senden Ihnen eine E-Mail mit allen Informationen."
+  },
+  
+  "navbar": {
+    "Home": "Startseite",
+    "hikes": "Wandern",
+    "RC": "Felsklettern",
+    "MC": "Bergsteigen",
+    "about": "Wer wir sind",
+    "contact": "Kontakt"
+  },
+  
+  "homeCover": {
+    "primer_title_home": "Citlaltepetl",
+    "primer_p_home": "Mexikos höchster Punkt.",
+    "segundo_title_home": "segundo_title_home",
+    "segundo_p_home": "segundo_p_home",
+    "tercer_title_home": "Barrancas del Cobre",
+    "tercer_p_home": "Mexikos größter Canyon.",
+    "cuarto_title_home": "cuarto_title_home",
+    "cuarto_p_home": "cuarto_p_home",
+    "quinto_title_home": "quinto_title_home",
+    "quinto_p_home": "quinto_p_home",
+    "sexto_title_home": "sexto_title_home",
+    "sexto_p_home": "sexto_p_home",
+    "septimo_title_home": "septimo_title_home",
+    "septimo_p_home": "septimo_p_home",
+    "octavo_title_home": "octavo_title_home",
+    "octavo_p_home": "octavo_p_home",
+    "noveno_title_home": "noveno_title_home",
+    "noveno_p_home": "noveno_p_home",
+    "decimo_title_home": "decimo_title_home",
+    "decimo_p_home": "decimo_p_home",
+    "onceavo_title_home": "onceavo_title_home",
+    "onceavo_p_home": "onceavo_p_home",
+    "doceavo_title_home": "doceavo_title_home",
+    "doceavo_p_home": "doceavo_p_home",
+    "trece_title_home": "trece_title_home",
+    "trece_p_home": "trece_p_home",
+    "catorce_title_home": "catorce_title_home",
+    "catorce_p_home": "catorce_p_home",
+    "quince_title_home": "quince_title_home",
+    "quince_p_home": "quince_p_home"
+  },
+  
+  "homeCards": {
+    "Hikes": "Wandern",
+    "Rock_Climbing": "Felsklettern",
+    "Mountaneering": "Bergsteigen",
+    "texto_Hikes": "Komm und entdecke schöne Orte, bevor wir alles zerstören.",
+    "texto_rockclimb": "Bouldern, Felsen bis zu 30 Metern und mehrlängere Routen",
+    "texto_mont": "Besuche unsere Vulkane über 4000 m. ü.M.",
+    "go": "Mehr sehen"
+  },
+  
+  "hikesPage": {},
+  
+  "EscCards": {
+    "titleCard1": "LAS VENTANAS",
+    "subtitleCard1": "LAS VENTANAS",
+    "textCard1": "",
+    "descriptionCard1": "Das Mexiko-Tal erstrahlt majestätisch und imposant von seinen Gipfeln, da die Cruz del Marqués und der Pico del Águila die höchsten Punkte sind, die wir erreichen können. Der Ajusco oder die Floresta de Agua auf Nahuatl beherbergt diese beiden Gipfel, die die höchsten der Stadt sind. Der Weg zum Gipfel ist von einem Wald, Felsformationen, Panoramaansichten oder internen Orten geschützt, die es wert sind, ein großartiges Foto zu machen, gedacht für diejenigen, die nicht viel Zeit haben, um in sehr abgelegene Berge zu gehen oder die in die Welt des Bergsteigens eintauchen möchten.",
+    "requireCard1": {
+      "gral": "Allgemeine Anforderungen",
+      "fisico": "Physische Anforderungen",
+      "previos": "Keine Vorerfahrung erforderlich.",
+      "equipo": "Alle benötigte Ausrüstung",
+      "medicos": "Alle medizinischen Anforderungen, die Sie haben könnten"
+    },
+    "altitudeCard1": "80 m",
+    "costCard1": "Wöchentliche Touren",
+    "lengthCard1": "9.a - 12.d",
+    
+    "titleCard2": "JILOTEPEC",
+    "subtitleCard2": "JILOTEPEC",
+    "textCard2": "Auf Nahuatl bedeutet Herr Nackt, repräsentierte in der Vergangenheit ein Zentrum der Anbetung für die Bewohner des umliegenden Tals, es gibt zwei Lagunen, die als „Lagune der Sonne“ und „Lagune des Mondes“ bekannt sind, die zusammen mit dem eigenen verschneiten Berg als lebendige Wesen betrachtet wurden; es wurde angenommen, dass in diesen Lagunen die Gottheiten des Wassers, der Fruchtbarkeit und der Ernte wohnen, der vierthöchste Berg Mexikos.",
+    "descriptionCard2": "Auf Nahuatl bedeutet Herr Nackt, repräsentierte in der Vergangenheit ein Zentrum der Anbetung für die Bewohner des umliegenden Tals, es gibt zwei Lagunen, die als „Lagune der Sonne“ und „Lagune des Mondes“ bekannt sind, die zusammen mit dem eigenen verschneiten Berg als lebendige Wesen betrachtet wurden; es wurde angenommen, dass in diesen Lagunen die Gottheiten des Wassers, der Fruchtbarkeit und der Ernte wohnen, der vierthöchste Berg Mexikos.",
+    "requireCard2": {
+      "gral": "Allgemeine Anforderungen",
+      "fisico": "Physische Anforderungen",
+      "previos": "Keine Vorerfahrung erforderlich.",
+      "equipo": "Alle benötigte Ausrüstung",
+      "medicos": "Alle medizinischen Anforderungen, die Sie haben könnten"
+    },
+    "altitudeCard2": "4,680 m",
+    "costCard2": "Wöchentliche Touren",
+    "lengthCard2": "Gesamtdistanz ≈ 12 km",
+    
+    "titleCard3": "ACULCO",
+    "subtitleCard3": "ACULCO",
+    "textCard3": "Matlalcueye, Regen-Göttin auf Nahuatl, und nach der Eroberung als Malinche bekannt, erzählt die Legende, dass auf den Hängen dieses Vulkans die Frau begraben ist, die den Spaniern half, die prähispanischen Völker zu interpretieren und zu übersetzen. Mit sandigem Gelände, steilen Anstiegen, die eine akzeptable körperliche Verfassung erfordern, und einem großen Wald, den man durchqueren muss, wird es zu einem Abenteuer, das die Bedingungen dieser schönen Sportart enthüllt, die uns der Natur näher bringt.",
+    "descriptionCard3": "Zuvor bekannt als Matlalcueye, Regen-Göttin auf Nahuatl, und nach der Eroberung als Malinche bekannt, erzählt die Legende, dass auf den Hängen dieses Vulkans mit 4420 Metern Höhe die Frau begraben ist, die den Spaniern half, die prähispanischen Völker zu interpretieren und kennenzulernen, die sich Richtung Tenochtitlan bewegten, bevor es belagert wurde. Dieser noch aktive Vulkan, der zwischen den Bundesstaaten Puebla und Tlaxcala liegt, bietet eine einzigartige Erfahrung für diejenigen, die in die Welt des Bergsteigens einsteigen; denn mit sandigem Gelände, steilen Anstiegen, die eine akzeptable körperliche Verfassung erfordern, und einem großen Wald, den man durchqueren muss, wird es zu einem Abenteuer, das die Bedingungen dieser schönen Sportart enthüllt, die uns der Natur näher bringt. Mit Campingplätzen, großzügigen Parkflächen, Restaurants mit erschwinglichem und gut serviertem Essen sowie einem Ferienzentrum mit Sportplätzen, Duschen und Vermietung von Hütten bietet La Malinche zweifellos alle Annehmlichkeiten und Orte, um sich mit der Natur zu erholen und in die Welt des Bergsteigens einzutauchen.",
+    "requireCard3": {
+      "gral": "Allgemeine Anforderungen",
+      "fisico": "Physische Anforderungen",
+      "previos": "Keine Vorerfahrung erforderlich.",
+      "equipo": "Alle benötigte Ausrüstung",
+      "medicos": "Alle medizinischen Anforderungen, die Sie haben könnten"
+    },
+    "altitudeCard3": "4,420 m",
+    "costCard3": "Wöchentliche Touren",
+    "lengthCard3": "Gesamtdistanz ≈ 14 km",
+    
+    "titleCard4": "RANCHO QUEMADO",
+    "subtitleCard4": "RANCHO QUEMADO",
+    "textCard4": "textCard4",
+    "descriptionCard4": "descriptionCard4",
+    "requireCard4": {
+      "gral": "Allgemeine Anforderungen",
+      "fisico": "Physische Anforderungen",
+      "previos": "Keine Vorerfahrung erforderlich.",
+      "equipo": "Alle benötigte Ausrüstung",
+      "medicos": "Alle medizinischen Anforderungen, die Sie haben könnten"
+    },
+    "altitudeCard4": "4,580 m",
+    "costCard4": "Touren alle zwei Wochen",
+    "lengthCard4": "Gesamtdistanz ≈ 10 km",
+    
+    "titleCard5": "PEÑA DE BERNAL",
+    "subtitleCard5": "PEÑA DE BERNAL",
+    "textCard5": "textCard5",
+    "descriptionCard5": "descriptionCard5",
+    "requireCard5": {
+      "gral": "Allgemeine Anforderungen",
+      "fisico": "Physische Anforderungen",
+      "previos": "Voraussetzungen",
+      "equipo": "Alle benötigte Ausrüstung",
+      "medicos": "Alle medizinischen Anforderungen, die Sie haben könnten"
+    },
+    "altitudeCard5": "5,230 m",
+    "costCard5": "Touren alle zwei Wochen",
+    "lengthCard5": "Gesamtdistanz ≈ 15 km",
+    
+    "titleCard6": "DINAMOS",
+    "subtitleCard6": "DINAMOS",
+    "textCard6": "textCard6",
+    "descriptionCard6": "descriptionCard6",
+    "requireCard6": {
+      "gral": "Allgemeine Anforderungen",
+      "fisico": "Physische Anforderungen",
+      "previos": "Voraussetzungen",
+      "equipo": "Alle benötigte Ausrüstung",
+      "medicos": "Alle medizinischen Anforderungen, die Sie haben könnten"
+    },
+    "altitudeCard6": "5,636 m",
+    "costCard6": "Touren alle zwei Wochen",
+    "lengthCard6": "Gesamtdistanz ≈ 14 km",
+    
+    "titleCard7": "BASACEACHI",
+    "subtitleCard7": "BASACEACHI",
+    "textCard7": "textCard7",
+    "descriptionCard7": "descriptionCard7",
+    "requireCard7": {
+      "gral": "Allgemeine Anforderungen",
+      "fisico": "Physische Anforderungen",
+      "previos": "Voraussetzungen",
+      "equipo": "Alle benötigte Ausrüstung",
+      "medicos": "Alle medizinischen Anforderungen, die Sie haben könnten"
+    },
+    "altitudeCard7": "5,393 m",
+    "costCard7": "Keine Touren",
+    "lengthCard7": "Gesamtdistanz ≈ 10 km"
+  },
+  
+  "montCards": {
+    "titleCard1": "AXOCHCO",
+    "subtitleCard1": "Volcán Ajusco",
+    "textCard1": "Der Ajusco oder die Floresta de Agua auf Nahuatl beherbergt die Cruz del Marqués und den Pico del Águila, die beiden höchsten Gipfel der Stadt. Der Weg zum Gipfel ist von einem Wald, Felsformationen, Panoramaansichten oder internen Orten geschützt, die eine großartige Fotografie wert sind, gedacht für diejenigen, die nicht viel Zeit haben, um in sehr abgelegene Berge zu gehen oder die in die Welt des Bergsteigens eintauchen möchten.",
+    "descriptionCard1": "Das Mexiko-Tal erstrahlt majestätisch und imposant von seinen Gipfeln, da die Cruz del Marqués und der Pico del Águila die höchsten Punkte sind, die wir erreichen können. Der Ajusco oder die Floresta de Agua auf Nahuatl beherbergt diese beiden Gipfel, die die höchsten der Stadt sind. Der Weg zum Gipfel ist von einem Wald, Felsformationen, Panoramaansichten oder internen Orten geschützt, die es wert sind, ein großartiges Foto zu machen, gedacht für diejenigen, die nicht viel Zeit haben, um in sehr abgelegene Berge zu gehen oder die in die Welt des Bergsteigens eintauchen möchten.",
+    "requireCard1": {
+      "gral": "Allgemeine Anforderungen",
+      "fisico": "Physische Anforderungen",
+      "previos": "Keine Vorerfahrung erforderlich.",
+      "equipo": "Alle benötigte Ausrüstung",
+      "medicos": "Alle medizinischen Anforderungen, die Sie haben könnten"
+    },
+    "altitudeCard1": "3,930 m",
+    "costCard1": "Wöchentliche Touren",
+    "lengthCard1": "Gesamtdistanz ≈ 9 km",
+    
+    "titleCard2": "XINANTECATL",
+    "subtitleCard2": "Nevado de Toluca",
+    "textCard2": "Auf Nahuatl bedeutet Herr Nackt, repräsentierte in der Vergangenheit ein Zentrum der Anbetung für die Bewohner des umliegenden Tals, es gibt zwei Lagunen, die als „Lagune der Sonne“ und „Lagune des Mondes“ bekannt sind, die zusammen mit dem eigenen verschneiten Berg als lebendige Wesen betrachtet wurden; es wurde angenommen, dass in diesen Lagunen die Gottheiten des Wassers, der Fruchtbarkeit und der Ernte wohnen, der vierthöchste Berg Mexikos.",
+    "descriptionCard2": "Auf Nahuatl bedeutet Herr Nackt, repräsentierte in der Vergangenheit ein Zentrum der Anbetung für die Bewohner des umliegenden Tals, es gibt zwei Lagunen, die als „Lagune der Sonne“ und „Lagune des Mondes“ bekannt sind, die zusammen mit dem eigenen verschneiten Berg als lebendige Wesen betrachtet wurden; es wurde angenommen, dass in diesen Lagunen die Gottheiten des Wassers, der Fruchtbarkeit und der Ernte wohnen, der vierthöchste Berg Mexikos.",
+    "requireCard2": {
+      "gral": "Allgemeine Anforderungen",
+      "fisico": "Physische Anforderungen",
+      "previos": "Keine Vorerfahrung erforderlich.",
+      "equipo": "Alle benötigte Ausrüstung",
+      "medicos": "Alle medizinischen Anforderungen, die Sie haben könnten"
+    },
+    "altitudeCard2": "4,680 m",
+    "costCard2": "Wöchentliche Touren",
+    "lengthCard2": "Gesamtdistanz ≈ 12 km",
+    
+    "titleCard3": "MATLALCUEYE",
+    "subtitleCard3": "Volcán Malinche",
+    "textCard3": "Matlalcueye, Regen-Göttin auf Nahuatl, und nach der Eroberung als Malinche bekannt, erzählt die Legende, dass auf den Hängen dieses Vulkans die Frau begraben ist, die den Spaniern half, die prähispanischen Völker zu interpretieren und zu übersetzen. Mit sandigem Gelände, steilen Anstiegen, die eine akzeptable körperliche Verfassung erfordern, und einem großen Wald, den man durchqueren muss, wird es zu einem Abenteuer, das die Bedingungen dieser schönen Sportart enthüllt, die uns der Natur näher bringt.",
+    "descriptionCard3": "Zuvor bekannt als Matlalcueye, Regen-Göttin auf Nahuatl, und nach der Eroberung als Malinche bekannt, erzählt die Legende, dass auf den Hängen dieses Vulkans mit 4420 Metern Höhe die Frau begraben ist, die den Spaniern half, die prähispanischen Völker zu interpretieren und kennenzulernen, die sich Richtung Tenochtitlan bewegten, bevor es belagert wurde. Dieser noch aktive Vulkan, der zwischen den Bundesstaaten Puebla und Tlaxcala liegt, bietet eine einzigartige Erfahrung für diejenigen, die in die Welt des Bergsteigens einsteigen; denn mit sandigem Gelände, steilen Anstiegen, die eine akzeptable körperliche Verfassung erfordern, und einem großen Wald, den man durchqueren muss, wird es zu einem Abenteuer, das die Bedingungen dieser schönen Sportart enthüllt, die uns der Natur näher bringt. Mit Campingplätzen, großzügigen Parkflächen, Restaurants mit erschwinglichem und gut serviertem Essen sowie einem Ferienzentrum mit Sportplätzen, Duschen und Vermietung von Hütten bietet La Malinche zweifellos alle Annehmlichkeiten und Orte, um sich mit der Natur zu erholen und in die Welt des Bergsteigens einzutauchen.",
+    "requireCard3": {
+      "gral": "Allgemeine Anforderungen",
+      "fisico": "Physische Anforderungen",
+      "previos": "Keine Vorerfahrung erforderlich.",
+      "equipo": "Alle benötigte Ausrüstung",
+      "medicos": "Alle medizinischen Anforderungen, die Sie haben könnten"
+    },
+    "altitudeCard3": "4,420 m",
+    "costCard3": "Wöchentliche Touren",
+    "lengthCard3": "Gesamtdistanz ≈ 14 km",
+    
+    "titleCard4": "TLILTÉPETL",
+    "subtitleCard4": "Sierra Negra",
+    "textCard4": "textCard4",
+    "descriptionCard4": "descriptionCard4",
+    "requireCard4": {
+      "gral": "Allgemeine Anforderungen",
+      "fisico": "Physische Anforderungen",
+      "previos": "Keine Vorerfahrung erforderlich.",
+      "equipo": "Alle benötigte Ausrüstung",
+      "medicos": "Alle medizinischen Anforderungen, die Sie haben könnten"
+    },
+    "altitudeCard4": "4,580 m",
+    "costCard4": "Touren alle zwei Wochen",
+    "lengthCard4": "Gesamtdistanz ≈ 10 km",
+    
+    "titleCard5": "IZTACCIHUATL",
+    "subtitleCard5": "Iztaccihuatl",
+    "textCard5": "textCard5",
+    "descriptionCard5": "descriptionCard5",
+    "requireCard5": {
+      "gral": "Allgemeine Anforderungen",
+      "fisico": "Physische Anforderungen",
+      "previos": "Voraussetzungen",
+      "equipo": "Alle benötigte Ausrüstung",
+      "medicos": "Alle medizinischen Anforderungen, die Sie haben könnten"
+    },
+    "altitudeCard5": "5,230 m",
+    "costCard5": "Touren alle zwei Wochen",
+    "lengthCard5": "Gesamtdistanz ≈ 15 km",
+    
+    "titleCard6": "CITLALTÉPETL",
+    "subtitleCard6": "Pico de Orizaba",
+    "textCard6": "textCard6",
+    "descriptionCard6": "descriptionCard6",
+    "requireCard6": {
+      "gral": "Allgemeine Anforderungen",
+      "fisico": "Physische Anforderungen",
+      "previos": "Voraussetzungen",
+      "equipo": "Alle benötigte Ausrüstung",
+      "medicos": "Alle medizinischen Anforderungen, die Sie haben könnten"
+    },
+    "altitudeCard6": "5,636 m",
+    "costCard6": "Touren alle zwei Wochen",
+    "lengthCard6": "Gesamtdistanz ≈ 14 km",
+    
+    "titleCard7": "POPOCATÉPETL",
+    "subtitleCard7": "subtitleCard7",
+    "textCard7": "textCard7",
+    "descriptionCard7": "descriptionCard7",
+    "requireCard7": {
+      "gral": "Allgemeine Anforderungen",
+      "fisico": "Physische Anforderungen",
+      "previos": "Voraussetzungen",
+      "equipo": "Alle benötigte Ausrüstung",
+      "medicos": "Alle medizinischen Anforderungen, die Sie haben könnten"
+    },
+    "altitudeCard7": "5,393 m",
+    "costCard7": "Keine Touren",
+    "lengthCard7": "Gesamtdistanz ≈ 10 km"
+  },
+  
+  "aboutPage": {},
+  
+  "contactPage": {},
+  
+  "contact": {
+    "nombre": "Name",
+    "email": "Email"
+  },
+  
+  "message": {
+    "comment": "Kommentar"
+  },
+  
+  "placeholders": {
+    "name": "Geben Sie Ihren Namen ein",
+    "email": "Geben Sie Ihre E-Mail ein",
+    "comment": "Geben Sie Ihre Nachricht ein"
+  },
+  
+  "buttons": {
+    "submit": "Absenden",
+    "submitting": "Wird gesendet..."
+  },
+  
+  "validation": {
+    "nameRequired": "Name ist erforderlich.",
+    "nameInvalid": "Der Name darf nur Buchstaben und Leerzeichen enthalten.",
+    "emailRequired": "E-Mail ist erforderlich.",
+    "emailInvalid": "Bitte geben Sie eine gültige E-Mail-Adresse ein."
+  },
+  
+  "toast": {
+    "successMessage": "Vielen Dank für Ihre Nachricht!",
+    "errorMessage": "Etwas ist schief gelaufen. Bitte versuchen Sie es erneut."
+  }
+}
