@@ -38,12 +38,12 @@ const MontCards = () => {
     {
       imgsrc: CoverNevadoToluca,
       titleKey: "MontCards.titleCard1",
-      subtitleKey: "MontCards.subtitleCard1",
+      subtitleKey: "MontCards.titleCard2",
       textKey: "MontCards.textCard1",
       goKey: "Reservar",
       status: "btn btn-outline-success",
       imgsrcs: [ModNev1, ModNev2, ModNev3, ModNev4, ModNev5],
-      descriptionKey: "MontCards.descriptionCard1",
+      descriptionKey: "montCards.descriptionCard1",
       requirements: {
         gral: "MontCards.requireCard1.gral",
         fisico: "MontCards.requireCard1.fisico",

@@ -5,6 +5,7 @@ import TextAbout from "../components/CoverAboutPage"
 
 
 
+
 const AboutPage = () =>{
 
     return(

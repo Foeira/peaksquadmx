@@ -14,17 +14,17 @@ function HomeText() {
         <Row>
             <Col >
             <div className='text-home'>
-              <h1>{t('homeTexts.hometext1')}</h1>
+              {t('homeTexts.hometext1')}
             </div>
             </Col>
             <Col>
             <div className='text-home2'>
-              <ul>
-              <li> Guias certificados en emergencias (algun dia)</li>
-              <li> Transporte redondo</li>
-              <li> Equipo personal certificado</li>
-              <li> Equipo personal certificado por mi jefecita</li>
-              <li> Higiene en Alimentos y bebidas</li>
+              <ul style={{ listStyle: 'none', padding: 10, margin: 10 }}>
+                <li>- {t('homeTexts.homeLine1')}</li>
+                <li>- {t('homeTexts.homeLine2')}</li>
+                <li>- {t('homeTexts.homeLine3')}</li>
+                <li>- {t('homeTexts.homeLine4')}</li>
+                <li>- {t('homeTexts.homeLine5')}</li>
               </ul>
             </div>
             </Col>

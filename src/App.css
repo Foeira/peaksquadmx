@@ -1,11 +1,19 @@
 
 
 .text-home{
-  color: rgb(20, 124, 243);
-  font-size: 5rem;
-  font-weight: 700;
+  color: red;
+  font-weight: 900;
   font-family: 'Roboto';
   font-style: normal;
+  font-size: 5rem !important; /* Make text bigger */
+  padding: 20px;    /* Increase padding inside */
+
+  width: 100%;      /* Take full width of parent */
+  height: 600px;    /* Increase height */
+  display: flex;    /* Center content */
+  justify-content: center; 
+  align-items: center;
+  
 }
 
 .text-home2{

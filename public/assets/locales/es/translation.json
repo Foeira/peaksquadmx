@@ -1,6 +1,6 @@
 {
   "app": {
-    "title": "ES TITULO ",
+    "title": "Peak Squad MX ",
     "Msg_Servicio": "Muchas gracias, te enviaremos un email con toda la información"
   },
 
@@ -41,18 +41,20 @@
     "hometext1": "Ven antes que se queme todo!!!",
     "homeLine1": "Guias certificados en emergencias médicas",
     "homeLine2":"Transporte incluido desde la CDMX",
-    "homeLine3":"",
-    "homeLine4":"",
-    "homeLine5":"",
-    "homeLine6":""
+    "homeLine3":"Brindamos todo el equipo personal necesario para tu aventura",
+    "homeLine4":"Llevamos alimentos y bebidas preparados con higiene",
+    "homeLine5":"Te preparamos para lograr tu primer montaña arriba de los 5,000 metros."
+  
     
   },
+
+
 
   "EscCards": {
     "titleCard1": "LAS VENTANAS",
     "subtitleCard1": "LAS VENTANAS",
-    "textCard1": "A menos de dos horas de CDMX, rutas fáciles, multilargos y caminatas.",
-    "descriptionCard1": "",
+    "textCard1": "",
+    "descriptionCard1": "A menos de dos horas de CDMX, rutas fáciles, multilargos y caminatas.",
     "requireCard1": {
       "gral": "Requerimento geral",
       "fisico": "requerimientos fisicos",
@@ -66,7 +68,7 @@
 
     "titleCard2": "JILOTEPEC",
     "subtitleCard2": "JILOTEPEC",
-    "textCard2": ".",
+    "textCard2": "",
     "descriptionCard2": "",
     "requireCard2": {
       "gral": "Requerimento geral",
@@ -75,14 +77,14 @@
       "equipo": "Todo el equipo que necesita",
       "medicos": "Todos los requerimientos que médicos que pueda tener"
     },
-    "altitudeCard2": "4,680 m",
-    "costCard2": "Salidas cada semana",
-    "lengthCard2": "Distancia Total ≈ 12 km",
+    "altitudeCard2": "50 m",
+    "costCard2": "Salidas seguidas",
+    "lengthCard2": "Distancia Total ≈ 7 km",
 
     "titleCard3": "ACULCO",
     "subtitleCard3": "ACULCO",
-    "textCard3": "Localizado a una hora y media al norte de la ciudad de México, ideal para escalada tradicional ya que prácticamente no cuenta con bolts en la pared. Paredes de 40 metros con dificultades mayores a 10.B",
-    "descriptionCard3": "",
+    "textCard3": " ",
+    "descriptionCard3": "Localizado a una hora y media al norte de la ciudad de México, ideal para escalada tradicional ya que prácticamente no cuenta con bolts en la pared. Paredes de 40 metros con dificultades mayores a 10.B",
     "requireCard3": {
       "gral": "Requerimento geral",
       "fisico": "requerimientos fisicos",
@@ -170,7 +172,7 @@
     "lengthCard8": "Distancia Total ≈ 10 km"
   },
 
-  "montCards": {
+  "MontCards": {
     "titleCard1": "AXOCHCO",
     "subtitleCard1": "Volcán Ajusco",
     "textCard1": "El Ajusco o la Floresta de Agua en náhuatl, alberga la Cruz del Marqués y el Pico del Águila, las dos cumbres más altas de la ciudad. Su camino a la cima está resguardado por un bosque, formaciones rocosas, panoramas o lugares internos dignos de una gran fotografía, pensada para aquellos que no tienen mucho tiempo de salir a montaña muy alejadas o quienes quieren adentrarse al mundo del montañismo.",
@@ -416,9 +418,10 @@
 
  
 
-  "aboutPage": {},
-
-  "contactPage": {},
+  "aboutPage": {
+    "aboutText":"Nosotros",
+    "aboutString":"Somos un grupo de amigos apasionados por las actividades al aire libre, tenemos un gran respeto por la naturaleza, la cuidamos y disfrutamos, siempre con responsabilidad y precaución."
+  },
 
   "contact": {
     "nombre": "Nombre",
@@ -432,7 +435,7 @@
   "placeholders": {
     "name": "Ingrese su nombre",
     "email": "Ingrese su correo electrónico",
-    "comment": "Ingrese su mensaje"
+    "comment": "Dudas, quejas o comentarios"
   },
   
   "buttons": {
