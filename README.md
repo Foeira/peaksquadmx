@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Peak Squad Mx
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+https://foeira.github.io/peaksquadmx/#/
 
 ## Available Scripts
 
