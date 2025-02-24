@@ -17,31 +17,13 @@
     "primer_title_home": "Citlaltepetl",
     "primer_p_home": "Punto mas alto de México.",
     "segundo_title_home": "Desierto de los Leones",
-    "segundo_p_home": "No hay leones",
+    "segundo_p_home": "Ni desierto, ni leones",
     "tercer_title_home": "Barrancas del Cobre",
-    "tercer_p_home": "El culo del mundo",
-    "cuarto_title_home": "cuarto_title_home",
-    "cuarto_p_home": "cuarto_p_home",
-    "quinto_title_home": "quinto_title_home",
-    "quinto_p_home": "quinto_p_home",
-    "sexto_title_home": "sexto_title_home",
-    "sexto_p_home": "sexto_p_home",
+    "tercer_p_home": "Tal vez el culo del mundo",
+    "quinto_title_home": "Bosque el Ajusco",
+    "quinto_p_home": "La última cascada limpia de ciudad de México",
     "septimo_title_home": "Arco del Tiempo",
     "septimo_p_home": "Chiapas",
-    "octavo_title_home": "octavo_title_home",
-    "octavo_p_home": "octavo_p_home",
-    "noveno_title_home": "noveno_title_home",
-    "noveno_p_home": "noveno_p_home",
-    "decimo_title_home": "decimo_title_home",
-    "decimo_p_home": "decimo_p_home",
-    "onceavo_title_home": "onceavo_title_home",
-    "onceavo_p_home": "onceavo_p_home",
-    "doceavo_title_home": "doceavo_title_home",
-    "doceavo_p_home": "doceavo_p_home",
-    "trece_title_home": "trece_title_home",
-    "trece_p_home": "trece_p_home",
-    "catorce_title_home": "catorce_title_home",
-    "catorce_p_home": "catorce_p_home",
     "quince_title_home": "Tres peñas",
     "quince_p_home": "Estado de México"
   },
@@ -56,7 +38,14 @@
   },
 
   "homeTexts": {
-    "hometext1": "Ven antes que se queme todo!!!"
+    "hometext1": "Ven antes que se queme todo!!!",
+    "homeLine1": "Guias certificados en emergencias médicas",
+    "homeLine2":"Transporte incluido desde la CDMX",
+    "homeLine3":"",
+    "homeLine4":"",
+    "homeLine5":"",
+    "homeLine6":""
+    
   },
 
   "EscCards": {
