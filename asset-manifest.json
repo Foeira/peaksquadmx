@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/peaksquadmx/static/css/main.c0c45e69.css",
-    "main.js": "/peaksquadmx/static/js/main.7e4fee09.js",
+    "main.css": "/peaksquadmx/static/css/main.51be9b17.css",
+    "main.js": "/peaksquadmx/static/js/main.2be87316.js",
     "static/js/453.babe827a.chunk.js": "/peaksquadmx/static/js/453.babe827a.chunk.js",
     "static/media/about18.jpg": "/peaksquadmx/static/media/about18.b71ee9b8b49f91661da8.jpg",
     "static/media/cover3.jpg": "/peaksquadmx/static/media/cover3.a73510efebe0f6e6d619.jpg",
@@ -363,12 +363,12 @@
     "static/media/bd.svg": "/peaksquadmx/static/media/bd.0ad8c443ef4d47ea0497.svg",
     "static/media/pe.svg": "/peaksquadmx/static/media/pe.d64e9732fcaa8f765994.svg",
     "static/media/id.svg": "/peaksquadmx/static/media/id.f624e2c8444a7794b357.svg",
-    "main.c0c45e69.css.map": "/peaksquadmx/static/css/main.c0c45e69.css.map",
-    "main.7e4fee09.js.map": "/peaksquadmx/static/js/main.7e4fee09.js.map",
+    "main.51be9b17.css.map": "/peaksquadmx/static/css/main.51be9b17.css.map",
+    "main.2be87316.js.map": "/peaksquadmx/static/js/main.2be87316.js.map",
     "453.babe827a.chunk.js.map": "/peaksquadmx/static/js/453.babe827a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0c45e69.css",
-    "static/js/main.7e4fee09.js"
+    "static/css/main.51be9b17.css",
+    "static/js/main.2be87316.js"
   ]
 }

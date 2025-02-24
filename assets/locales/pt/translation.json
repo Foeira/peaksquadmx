@@ -1,6 +1,85 @@
 {
   "app": {
-    "title": "Titulo en Español",
-    "Msg_Servicio": "Muchas gracias, te enviaremos un email con toda la información"
+    "title": "Peak Squad MX",
+    "Msg_Servicio": "Muito obrigado, enviaremos um e-mail com todas as informações."
+  },
+
+  "navbar": {
+    "Home": "Início",
+    "hikes": "Caminhadas",
+    "RC": "Escalada em Rocha",
+    "MC": "Montanhismo",
+    "about": "Quem somos",
+    "contact": "Contato"
+  },
+
+  "homeCover": {
+    "primer_title_home": "Citlaltepetl",
+    "primer_p_home": "Ponto mais alto do México.",
+    "segundo_title_home": "Deserto dos Leões",
+    "segundo_p_home": "Nem deserto, nem leões.",
+    "tercer_title_home": "Cânion do Cobre",
+    "tercer_p_home": "Talvez o cú do mundo.",
+    "quinto_title_home": "Floresta do Ajusco",
+    "quinto_p_home": "A última cachoeira limpa da Cidade do México.",
+    "septimo_title_home": "Arco do Tempo",
+    "septimo_p_home": "Chiapas",
+    "quince_title_home": "Três Rochas",
+    "quince_p_home": "Estado do México"
+  },
+
+  "homeCards": {
+    "Hikes": "Caminhadas",
+    "Rock_Climbing": "Escalada em Rocha",
+    "Mountaneering": "Montanhismo",
+    "texto_Hikes": "Venha conhecer lugares lindos antes que destruamos tudo.",
+    "texto_rockclimb": "Boulders, penhascos de até 30 metros ou rotas multipitch perto da Cidade do México.",
+    "texto_mont": "Visite nossos vulcões e montanhas com mais de 4.000 metros acima do nível do mar."
+  },
+
+  "homeTexts": {
+    "hometext1": "Venha antes que tudo pegue fogo!!!",
+    "homeLine1": "Guias certificados em emergências médicas.",
+    "homeLine2": "Transporte incluído da Cidade do México.",
+    "homeLine3": "Fornecemos todo o equipamento pessoal necessário para sua aventura.",
+    "homeLine4": "Levamos alimentos e bebidas preparados com higiene.",
+    "homeLine5": "Preparamos você para conquistar sua primeira montanha acima de 5.000 metros."
+  },
+
+  "aboutPage": {
+    "aboutText": "Quem somos",
+    "aboutString": "Somos um grupo de amigos apaixonados por atividades ao ar livre. Temos grande respeito pela natureza, cuidamos dela e a aproveitamos, sempre com responsabilidade e precaução."
+  },
+
+  "contact": {
+    "nombre": "Nome",
+    "email": "E-mail"
+  },
+
+  "message": {
+    "comment": "Comentário"
+  },
+
+  "placeholders": {
+    "name": "Digite seu nome",
+    "email": "Digite seu e-mail",
+    "comment": "Dúvidas, reclamações ou comentários"
+  },
+
+  "buttons": {
+    "submit": "Enviar",
+    "submitting": "Enviando..."
+  },
+
+  "validation": {
+    "nameRequired": "O nome é obrigatório.",
+    "nameInvalid": "O nome pode conter apenas letras e espaços.",
+    "emailRequired": "O e-mail é obrigatório.",
+    "emailInvalid": "Por favor, insira um endereço de e-mail válido."
+  },
+
+  "toast": {
+    "successMessage": "Obrigado pela sua mensagem!",
+    "errorMessage": "Algo deu errado. Por favor, tente novamente."
   }
 }
