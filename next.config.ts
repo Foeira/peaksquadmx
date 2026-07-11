@@ -12,6 +12,7 @@ const nextConfig: NextConfig = {
         hostname: 'res.cloudinary.com',   // <-- added
       },
     ],
+      qualities: [75, 90],  // <-- add this line
   },
 };
 

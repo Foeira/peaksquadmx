@@ -5,11 +5,12 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import { createPortal } from 'react-dom';
+import { destinations } from './data/destinations';
+import { testimonials } from './data/testimonials';
+import Hero from './components/Hero';
+import Footer from './components/footer';
 
-// Carousel Card Component – now using div instead of Link
-// Carousel Card Component
-// Carousel Card Component
-// Carousel Card Component
+
 // Carousel Card Component – with forced styles
 function DestinationCard({ dest, index, onClick }: { dest: any; index: number; onClick: () => void }) {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -171,45 +172,84 @@ export default function Home() {
 
   console.log('Home render, isModalOpen:', isModalOpen, 'selectedDest:', selectedDest);
 
-  return (
-    <main className="min-h-screen bg-black text-white">
-      {/* HERO */}
-      <section className="relative h-screen flex items-center justify-center overflow-hidden">
-        <Image
-          src="https://res.cloudinary.com/dc6xthiol/image/upload/v1783727930/iztamod1_aq3osi.jpg"
-          alt="Nature landscape"
-          fill
-          className="object-cover"
-          priority
-        />
-        <div className="absolute inset-0 bg-black/50" />
-        <div className="relative z-10 text-center px-4 max-w-4xl">
-          <p className="text-xs md:text-sm tracking-[0.3em] uppercase text-white/60 mb-6 font-sans-display">
-            Discover the Unseen
-          </p>
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif-display font-light leading-[1.1] mb-6">
-            Peak Squad
-          </h1>
-          <p className="text-base md:text-lg text-white/70 max-w-2xl mx-auto mb-10 font-light leading-relaxed">
-            Luxury travel experiences crafted for those who seek the extraordinary.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              href="#destinations"
-              className="px-10 py-3 border border-white/30 hover:border-white hover:bg-white hover:text-black transition-all duration-300 text-sm tracking-widest uppercase font-sans-display"
-            >
-              Explore
-            </Link>
-            <Link
-              href="#contact"
-              className="px-10 py-3 border border-white/30 hover:border-white hover:bg-white hover:text-black transition-all duration-300 text-sm tracking-widest uppercase font-sans-display"
-            >
-              Inquire
-            </Link>
-          </div>
-        </div>
+  useEffect(() => {
+  const logo = document.getElementById('adaptive-logo');
+  if (!logo) return;
 
-      </section>
+  // Create a hidden canvas to sample the background
+  const canvas = document.createElement('canvas');
+  const ctx = canvas.getContext('2d');
+
+  const updateLogoColor = () => {
+    if (!logo || !ctx) return;
+
+    // Get the position of the logo
+    const rect = logo.getBoundingClientRect();
+    
+    // Sample a pixel from the center of the logo
+    const x = rect.left + rect.width / 2;
+    const y = rect.top + rect.height / 2;
+
+    // Set canvas size to 1x1 (we only need 1 pixel)
+    canvas.width = 1;
+    canvas.height = 1;
+
+    // Draw the pixel from the background
+    ctx.drawImage(document.documentElement, x, y, 1, 1, 0, 0, 1, 1);
+    
+    // Get the pixel data
+    const pixelData = ctx.getImageData(0, 0, 1, 1).data;
+    const r = pixelData[0];
+    const g = pixelData[1];
+    const b = pixelData[2];
+
+    // Calculate the opposite (inverted) color
+    const invertR = 255 - r;
+    const invertG = 255 - g;
+    const invertB = 255 - b;
+
+    // Apply the inverted color
+    logo.style.color = `rgb(${invertR}, ${invertG}, ${invertB})`;
+  };
+
+  // Update on scroll and resize
+  updateLogoColor();
+  window.addEventListener('scroll', updateLogoColor);
+  window.addEventListener('resize', updateLogoColor);
+
+  return () => {
+    window.removeEventListener('scroll', updateLogoColor);
+    window.removeEventListener('resize', updateLogoColor);
+  };
+}, []);
+
+  return (
+
+    
+    <main className="min-h-screen bg-black text-white">
+
+  {/* Sticky Header – glass effect with white text + shadow */}
+<header className="fixed top-0 left-0 w-full z-50 p-4 md:p-6 pointer-events-none">
+  <div className="max-w-7xl mx-auto flex justify-between items-center pointer-events-auto">
+    {/* Logo – white with strong shadow for any background */}
+    <div className="text-2xl md:text-3xl font-serif-display font-light tracking-wide">
+      <span className="text-white drop-shadow-[0_2px_20px_rgba(0,0,0,0.9)] inline-block">
+        Wild Escapes
+      </span>
+    </div>
+
+    {/* Navigation links – also white with shadow */}
+    <nav className="hidden md:flex gap-8 text-sm tracking-widest uppercase font-sans-display">
+      <a href="#destinations" className="text-white drop-shadow-[0_2px_10px_rgba(0,0,0,0.8)] hover:opacity-70 transition">
+        Destinations
+      </a>
+      <a href="#contact" className="text-white drop-shadow-[0_2px_10px_rgba(0,0,0,0.8)] hover:opacity-70 transition">
+        Contact
+      </a>
+    </nav>
+  </div>
+</header>
+     <Hero/>
 
       {/* DESTINATIONS */}
       <section id="destinations" className="py-24 w-full">
@@ -257,38 +297,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ABOUT */}
-      <section className="py-24 px-6 bg-zinc-950/50">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-          <div className="relative aspect-[3/4] overflow-hidden ">
-            <Image
-              src="https://res.cloudinary.com/dc6xthiol/image/upload/v1783735412/cover5_to9kqg.jpg"
-              alt="Adventure"
-              fill
-              className="object-cover"
-            />
-          </div>
-          <div>
-            <p className="text-xs tracking-[0.3em] uppercase text-white/40 mb-4 font-sans-display">
-              About Us
-            </p>
-            <h2 className="text-3xl md:text-4xl font-serif-display font-light mb-6 leading-tight">
-              Curated Journeys,<br />Timeless Memories
-            </h2>
-            <p className="text-white/60 font-light leading-relaxed mb-8">
-              We believe travel is not just about destinations—it's about the stories you collect along the way. 
-              Every itinerary is a carefully composed narrative, designed to reveal the soul of a place.
-            </p>
-            <Link
-              href="#"
-              className="inline-flex items-center gap-3 text-sm tracking-widest uppercase font-sans-display border-b border-white/20 pb-1 hover:border-white transition-colors"
-            >
-              Discover More
-              <span className="text-white/40">→</span>
-            </Link>
-          </div>
-        </div>
-      </section>
 
       {/* TESTIMONIALS */}
       <section className="py-24 px-6 max-w-6xl mx-auto">
@@ -341,34 +349,7 @@ export default function Home() {
       </section>
 
 {/* FOOTER – brand name at bottom right */}
-<footer className="relative min-h-[300px] md:min-h-[400px] flex items-center justify-center px-6 overflow-hidden border-t border-white/5">
-  {/* Background image – aligned to bottom */}
-  <Image
-    src="https://res.cloudinary.com/dc6xthiol/image/upload/v1783735412/cover5_to9kqg.jpg"
-    alt="Footer background"
-    fill
-    className="object-cover object-bottom"
-    quality={90}
-    priority
-  />
-  {/* Dark overlay */}
-  <div className="absolute inset-0 bg-black/60" />
-
-  {/* Content – social links on left, brand name on right */}
-  <div className="relative z-10 max-w-7xl w-full flex flex-col md:flex-row justify-between items-center gap-4 text-xs font-sans-display tracking-widest uppercase text-center md:text-left">
-    {/* Social links – left side */}
-    <div className="flex gap-8 text-white/80">
-      <Link href="#" className="hover:text-white transition-colors">Instagram</Link>
-      <Link href="#" className="hover:text-white transition-colors">Facebook</Link>
-      <Link href="#" className="hover:text-white transition-colors">Pinterest</Link>
-    </div>
-
-    {/* Brand name – right side, fully white */}
-    <p className="text-white">
-      © {new Date().getFullYear()} Wild Escapes ®
-    </p>
-  </div>
-</footer>
+<Footer />
 
       {/* MODAL */}
       {isModalOpen && selectedDest && (
@@ -378,161 +359,3 @@ export default function Home() {
   );
 }
 
-// DATA
-const destinations = [
-  {
-    id: 1,
-    name: 'Pico de Orizaba',
-    location: 'Veracruz, Mexico',
-    description: 'The highest mountain in Mexico, a dormant volcano offering breathtaking views and challenging climbs for adventurers.',
-    images: [
-      
-      'https://res.cloudinary.com/dc6xthiol/image/upload/v1783731719/citla_card1_qniywz.jpg',
-      'https://res.cloudinary.com/dc6xthiol/image/upload/v1783732137/citlacard2_ww4hao.jpg',
-      'https://res.cloudinary.com/dc6xthiol/image/upload/v1783727915/citlaCover_vhlwgx.jpg',
-    ],
-  },
-  {
-    id: 2,
-    name: 'Rancho Quemado',
-    location: 'Queretaro',
-    description: 'Sail through deep blue fjords surrounded by towering cliffs and cascading waterfalls – a true natural wonder.',
-    images: [
-      'https://res.cloudinary.com/dc6xthiol/image/upload/v1783735435/modRQ4_vpw2su.jpg',
-      'https://res.cloudinary.com/dc6xthiol/image/upload/v1783735434/modRQ3_lzsmlu.jpg',
-      'https://res.cloudinary.com/dc6xthiol/image/upload/v1783735435/modRQ5_oaswoo.jpg',
-      'https://res.cloudinary.com/dc6xthiol/image/upload/v1783735433/modRQ1_kxoifc.jpg',
-      'https://res.cloudinary.com/dc6xthiol/image/upload/v1783735418/coverRQ_zhphyr.jpg'
-    ],
-  },
-  {
-    id: 3,
-    name: 'Mineral El Chico',
-    location: 'Hidalgo',
-    description: 'Turquoise lakes, snow‑capped peaks, and abundant wildlife – Banff is a paradise for nature lovers.',
-    images: [
-      'https://res.cloudinary.com/dc6xthiol/image/upload/v1783732138/cover7_aajcqi.jpg',
-      'https://res.cloudinary.com/dc6xthiol/image/upload/v1783735422/esc4_ddnalh.jpg',
-      'https://res.cloudinary.com/dc6xthiol/image/upload/v1783727927/IMG-20230620-WA0050_hdam8l.jpg',
-    ],
-  },
-  {
-    id: 4,
-    name: 'Nevado de Toluca',
-    location: 'Toluca',
-    description: 'White‑washed villages clinging to volcanic cliffs, overlooking the deep blue Aegean – pure romance.',
-    images: [
-      'https://res.cloudinary.com/dc6xthiol/image/upload/v1783735439/nevmod5_o7hzvs.jpg',
-      'https://res.cloudinary.com/dc6xthiol/image/upload/v1783735438/nevmod3_ydannf.jpg',
-      'https://res.cloudinary.com/dc6xthiol/image/upload/v1783735399/about10_pglrie.jpg',
-      'https://res.cloudinary.com/dc6xthiol/image/upload/v1783735433/malMod4_uxzckh.jpg'
-    ],
-  },
-
-    {
-    id: 5,
-    name: 'Arco del Tiempo',
-    location: 'Chiapas',
-    description: 'The Garden Isle – lush rainforests, dramatic cliffs, and pristine beaches that feel like paradise.',
-    images: [
-      'https://res.cloudinary.com/dc6xthiol/image/upload/v1783735415/cover17_ot2dar.jpg',
-      
-    ],
-  },
-
-  {
-    id: 6,
-    name: 'Iztaccihuatl',
-    location: 'Puebla/México',
-    description: 'Land of fire and ice – glaciers, volcanoes, geysers, and the magical Northern Lights.',
-    images: [
-      'https://res.cloudinary.com/dc6xthiol/image/upload/v1783735431/iztamod2_wwp2fg.jpg',
-      'https://res.cloudinary.com/dc6xthiol/image/upload/v1783735398/about8_tc8eli.webp',
-      'https://res.cloudinary.com/dc6xthiol/image/upload/v1783735431/iztamod1_gmhzjf.jpg'
-    ],
-  },
-
-      {
-    id: 7,
-    name: 'Desierto de los Leones',
-    location: 'CDMX',
-    description: 'The Garden Isle – lush rainforests, dramatic cliffs, and pristine beaches that feel like paradise.',
-    images: [
-      'https://res.cloudinary.com/dc6xthiol/image/upload/v1783735410/contact_qoxpuv.jpg',
-      
-    ],
-  },
-
-      {
-    id: 8,
-    name: 'Ajusco',
-    location: 'CDMX',
-    description: 'The Garden Isle – lush rainforests, dramatic cliffs, and pristine beaches that feel like paradise.',
-    images: [
-      'https://res.cloudinary.com/dc6xthiol/image/upload/v1783735407/ajusMod4_c939np.jpg',
-      
-    ],
-  },
-
-  {
-    id: 9,
-    name: 'Peña de Bernal',
-    location: 'Queretaro',
-    description: 'The Garden Isle – lush rainforests, dramatic cliffs, and pristine beaches that feel like paradise.',
-    images: [
-      'https://res.cloudinary.com/dc6xthiol/image/upload/v1783735421/esc3_yhsexp.jpg',
-      'https://res.cloudinary.com/dc6xthiol/image/upload/v1783735423/esc5_blvrnj.jpg',
-      'https://res.cloudinary.com/dc6xthiol/image/upload/v1783735424/esc6_b79cnl.jpg'
-      
-    ],
-  },
-  {
-    id: 10,
-    name: 'Amealco',
-    location: 'Queretaro',
-    description: 'The Garden Isle – lush rainforests, dramatic cliffs, and pristine beaches that feel like paradise.',
-    images: [
-      'https://res.cloudinary.com/dc6xthiol/image/upload/v1783735433/modAculco2_k8xuvh.jpg',
-      
-    ],
-  },
-  {
-    id: 11,
-    name: 'Malinche',
-    location: 'Tlaxcala',
-    description: 'The Garden Isle – lush rainforests, dramatic cliffs, and pristine beaches that feel like paradise.',
-    images: [
-      'https://res.cloudinary.com/dc6xthiol/image/upload/v1783735407/ajusMod4_c939np.jpg',
-      
-    ],
-  },
-  {
-    id: 12,
-    name: 'Popocatepetl',
-    location: 'Puebla',
-    description: 'The Garden Isle – lush rainforests, dramatic cliffs, and pristine beaches that feel like paradise.',
-    images: [
-      'https://res.cloudinary.com/dc6xthiol/image/upload/v1783735417/coverMontPopo_eiz738.jpg',
-      
-    ],
-  },
-
-];
-
-const testimonials = [
-  {
-    quote: 'The most breathtaking views I have ever seen. Every detail was thoughtfully curated.',
-    name: 'Emily R.',
-    location: 'Sydney, Australia',
-  },
-  {
-    quote: 'They transformed our dream trip into reality. A truly life‑changing experience.',
-    name: 'Carlos M.',
-    location: 'Madrid, Spain',
-  },
-  {
-    quote: 'Impeccable service, stunning locations, and a team that genuinely cares.',
-    name: 'Aisha K.',
-    location: 'Dubai, UAE',
-  },
-];
