@@ -12,6 +12,8 @@ export default function Hero() {
     'https://res.cloudinary.com/dc6xthiol/image/upload/v1783735426/img10_r3zcpl.jpg',
     'https://res.cloudinary.com/dc6xthiol/image/upload/v1783735413/cover11_hcstw3.jpg',
     'https://res.cloudinary.com/dc6xthiol/image/upload/v1783802443/IMG-20220910-WA0099_dxl7nt.jpg',
+    'https://res.cloudinary.com/dc6xthiol/image/upload/v1783803057/IMG-20220904-WA0023_mnuail.jpg',
+    'https://res.cloudinary.com/dc6xthiol/image/upload/v1783803177/IMG-20220829-WA0020_gj69ak.jpg'
   ];
 
   const [heroIndex, setHeroIndex] = useState(0);
